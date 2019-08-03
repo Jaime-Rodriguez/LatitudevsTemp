@@ -3,6 +3,11 @@
   padding-bottom:5px;
 }
 
+.box_style {
+background-color: rgb(8, 41, 87); 
+color:white;
+}
+
 #titlefont {
   font-size: 40px;
 }

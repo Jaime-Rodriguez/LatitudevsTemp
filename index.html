@@ -14,7 +14,7 @@
 <body>
   
   <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-padding">
-    <a class="navbar-brand" href="/index.html" id=titlefont>Latitude<h4><i><small><kbd style="background-color: rgb(8, 41, 87)">Boostrap Visualization Dashboard</kbd></small></i></h4></a>
+    <a class="navbar-brand" href="#" id=titlefont>Latitude<h4><i><small><kbd style="background-color: rgb(8, 41, 87)">Boostrap Visualization Dashboard</kbd></small></i></h4></a>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,18 +25,19 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="menufont" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="Assets/MaxTemperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="Assets/Humidity.html">Humidity</a>
+            <a class="dropdown-item" href="Assets/Cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="Assets/WindSpeed.html">Wind Speed</a>
           </div>
         </li>
 
         <li class="nav-item mr-auto">
-          <a class="nav-link" id="menufont" href="#">Comparison</a>
+          <a class="nav-link" id="menufont" href="Assets/Comparison.html">Comparison</a>
         </li>
 
         <li class="nav-item mr-auto">
-          <a class="nav-link" id="menufont" href="#">Data</a>
+          <a class="nav-link" id="menufont" href="Assets/Data.html">Data</a>
         </li>
       </ul>
 
@@ -53,10 +54,10 @@
           
             <div class="col-lg-6 col-md-12">
               <div class="card flext-md-row mb-4 shadow-lg h-md-250">
-                <h1 style="background-color: rgb(8, 41, 87); color:white; padding-left: 15px; padding-bottom:10px; padding-top: 10px">Summary: Latitude vs. X</h1>
+                <h1 class="box_style" style="padding-left: 15px; padding-bottom:10px; padding-top: 10px">Summary: Latitude vs. X</h1>
                   <div class="thumbnail float-left pr-3" style="padding-top: 35px">
-                      <a href="/assets/Fig1.png" target="_blank">
-                        <img style="padding: 0 45px; float: left" src="/assets/Fig1.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="450px"></a>
+                      <a href="assets/Fig1.png" target="_blank">
+                        <img style="padding: 0 45px; float: left" src="assets/Fig1.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="450px"></a>
                           <p style="padding-left:25px; font-size:16px; line-height: 30px; word-spacing: 3px; color:rgb(53, 52, 52)">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the 
                             OpenWeatherMap API to assemble a dataset on over 500 cities.
                             <br><br>
@@ -71,16 +72,16 @@
     
           <div class="col-lg-4 col-md-12">
               <div class="card flext-md-row mb-4 shadow-lg h-md-250">
-                <h1 style="background-color: rgb(8, 41, 87); color:white; padding-left: 15px; padding-bottom:10px; padding-top: 10px">Visualizations</h1>
-                <div class="thumbnail float-left pr-3" style="padding-top: 0px; padding: 75px">
-                      <a href="assets/Fig1.png" target="_blank">
-                      <img class="image_margin" src="assets/Fig1.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="230px"></a>
-                      <a href="assets/Fig2.png" target="_blank">
-                      <img class="image_margin" src="assets/Fig2.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="230px"></a>
-                      <a href="assets/Fig3.png" target="_blank">
-                      <img class="image_margin" src="assets/Fig3.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="230px"></a>
-                      <a href="assets/Fig2.png" target="_blank">
-                      <img class="image_margin" src="assets/Fig4.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="230px"></a>
+                <h1 class="box_style" style="padding-left: 15px; padding-bottom:10px; padding-top: 10px">Visualizations</h1>
+                <div class="thumbnail float-left pr-3" >
+                      <a href="Assets/MaxTemperature.html" target="_blank">
+                      <img class="image_margin" src="assets/Fig1.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="200px"></a>
+                      <a href="Assets/Humidity.html" target="_blank">
+                      <img class="image_margin" src="assets/Fig2.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="200px"></a>
+                      <a href="Assets/Cloudiness.html" target="_blank">
+                      <img class="image_margin" src="assets/Fig3.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="200px"></a>
+                      <a href="Assets/WindSpeed.html" target="_blank">
+                      <img class="image_margin" src="assets/Fig4.png" class="pull-left img-rounded img-responsive" alt="Latitude vs Temperature" width="200px"></a>
                 </div>
               </div>    
           </div>
